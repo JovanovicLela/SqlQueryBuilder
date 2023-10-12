@@ -1,0 +1,45 @@
+{
+  "Array": [
+    {
+      "name":"NoSuchTable",
+      "description":"there is no table like : %s",
+      "suggestions":"try with another name"
+    },
+    {
+      "name": "NoSuchColumns",
+      "description": "there are no columns like : %s ",
+      "suggestions": "try with another column-name"
+    },
+    {
+      "name": "MissingQueries",
+      "description": "%s",
+      "suggestions": ""
+    },
+    {
+      "name": "InvalidOrder",
+      "description": "of %s",
+      "suggestions": "try to add %s after"
+
+    },
+    {
+      "name":"SyntaxError",
+      "description":"separate words for aliases are not allowed",
+      "suggestions": "try adding \"  on %s"
+    },
+    {
+      "name":"GroupByError",
+      "description": "not a single-group group function",
+      "suggestions": "try adding %s"
+    },
+    {
+      "name": "WhereWithAggregation",
+      "description": "Where is not allowed to have aggregations",
+      "suggestions": "try moving aggregation from columns: %s"
+    },
+    {
+      "name": "JoinNotValid",
+      "description": "%s",
+      "suggestions" :"try changing using elements"
+    }
+  ]
+}
